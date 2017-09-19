@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.mengfei.rxjava_2_study"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -31,5 +31,8 @@ dependencies {
     compile 'com.android.support:cardview-v7:25.3.0'
     compile 'com.android.support:support-v4:25.3.0'
     compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    // 全景图
+    compile 'com.google.vr:sdk-panowidget:1.80.0'
     testCompile 'junit:junit:4.12'
 }

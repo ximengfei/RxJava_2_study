@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             txtname = "zbkq.txt";
         }
         else if (view.getId() == R.id.article3) {
-            txtname = "zbkq.txt";
+            startActivity(new Intent(this, PanoramaActivity.class));
+            return;
         }
         if (txtname.isEmpty()) {
             Toast.makeText(this, "emmm... 出了点问题呢..", Toast.LENGTH_LONG).show();
